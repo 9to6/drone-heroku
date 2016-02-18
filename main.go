@@ -90,7 +90,7 @@ func run(workspace *drone.Workspace, build *drone.Build, vargs *Params) error {
 
 func remote(vargs *Params) string {
 	return fmt.Sprintf(
-		"git@git.heroku.com:%s.git",
+		"git@heroku.com:%s.git",
 		vargs.Application)
 }
 
