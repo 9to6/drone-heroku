@@ -4,7 +4,7 @@
 [![Coverage Status](https://aircover.co/badges/drone-plugins/drone-heroku/coverage.svg)](https://aircover.co/drone-plugins/drone-heroku)
 [![](https://badge.imagelayers.io/plugins/drone-heroku:latest.svg)](https://imagelayers.io/?images=plugins/drone-heroku:latest 'Get your own badge on imagelayers.io')
 
-Drone plugin to deploy or update a project on Heroku
+Drone plugin to deploy or update a project on Heroku. For the usage information and a listing of the available options please take a look at [the docs](DOCS.md).
 
 ## Binary
 

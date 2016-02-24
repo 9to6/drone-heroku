@@ -12,11 +12,11 @@ import (
 )
 
 var (
-	buildDate string
+	buildCommit string
 )
 
 func main() {
-	fmt.Printf("Drone Heroku Plugin built at %s\n", buildDate)
+	fmt.Printf("Drone Heroku Plugin built from %s\n", buildCommit)
 
 	workspace := drone.Workspace{}
 	repo := drone.Repo{}
